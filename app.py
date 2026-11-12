@@ -30,7 +30,7 @@ from PIL import Image
 ROBOFLOW_MODEL_ID = "crack-of-the-wall/crack-in-the-wall-kmho1"
 
 # (b) Güven eşiği: bu değerin altındaki kutular çatlak sayılmaz (0-1 arası)
-GUVEN_ESIGI = 0.30
+GUVEN_ESIGI = 0.45
 
 
 # (c) Çatlak yoğunluğu kuralı.
