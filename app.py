@@ -27,7 +27,7 @@ from PIL import Image
 
 # (a) Roboflow Universe'ten seçtiğiniz çatlak tespit modelinin kimliği
 #     (proje/sürüm biçiminde, örn. "wall-crack-detection-abc12/3")
-ROBOFLOW_MODEL_ID = "crack-of-the-wall/crack-in-the-wall-kmho1"
+ROBOFLOW_MODEL_ID = "crack-of-the-wall/crack-in-the-wall-kmho1-instant-1"
 
 # (b) Güven eşiği: bu değerin altındaki kutular çatlak sayılmaz (0-1 arası)
 GUVEN_ESIGI = 0.45
